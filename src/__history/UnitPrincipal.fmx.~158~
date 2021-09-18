@@ -1,0 +1,1217 @@
+object FrmPrincipal: TFrmPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 667
+  ClientWidth = 310
+  Fill.Kind = Solid
+  StyleBook = StyleBook1
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 3
+  object TabControl: TTabControl
+    Align = Contents
+    Size.Width = 310.000000000000000000
+    Size.Height = 667.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 1
+    TabOrder = 0
+    TabPosition = None
+    Sizes = (
+      310s
+      667s
+      310s
+      667s)
+    object tabSignIn: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tabSignIn'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object Rectangle1: TRectangle
+        Align = Contents
+        Fill.Color = xFF201A30
+        Size.Width = 310.000000000000000000
+        Size.Height = 667.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = xFF201A30
+        object layLogin: TLayout
+          Align = Client
+          Locked = True
+          Margins.Left = 20.000000000000000000
+          Margins.Right = 20.000000000000000000
+          Size.Width = 270.000000000000000000
+          Size.Height = 667.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object layImgLogin: TLayout
+            Align = Top
+            Margins.Top = 50.000000000000000000
+            Position.Y = 50.000000000000000000
+            Size.Width = 270.000000000000000000
+            Size.Height = 154.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object imgLogin: TImage
+              MultiResBitmap = <
+                item
+                end>
+              Align = Center
+              Size.Width = 202.902404785156300000
+              Size.Height = 121.000000000000000000
+              Size.PlatformDefault = False
+            end
+          end
+          object Label1: TLabel
+            Align = Top
+            AutoSize = True
+            StyledSettings = []
+            Margins.Top = 10.000000000000000000
+            Position.Y = 214.000000000000000000
+            Size.Width = 270.000000000000000000
+            Size.Height = 32.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Roboto'
+            TextSettings.Font.Size = 26.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhite
+            Text = 'Login'
+            TabOrder = 3
+          end
+          object Label2: TLabel
+            Align = Top
+            AutoSize = True
+            StyledSettings = []
+            Margins.Top = 10.000000000000000000
+            Position.Y = 256.000000000000000000
+            Size.Width = 270.000000000000000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Roboto'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.FontColor = xFF534F65
+            Text = 'Please sign in to continue'
+            TabOrder = 2
+          end
+          object rectEmailSignIn: TRectangle
+            Align = Top
+            Fill.Color = xFF201A30
+            Opacity = 0.400000005960464500
+            Margins.Top = 30.000000000000000000
+            Position.Y = 303.000000000000000000
+            Size.Width = 270.000000000000000000
+            Size.Height = 62.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = xFF2B253E
+            XRadius = 15.000000000000000000
+            YRadius = 15.000000000000000000
+            object lblEmailSignIn: TLabel
+              Align = Top
+              AutoSize = True
+              StyledSettings = []
+              HitTest = True
+              Opacity = 0.000000000000000000
+              Margins.Left = 50.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Bottom = -19.000000000000000000
+              Position.X = 50.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 220.000000000000000000
+              Size.Height = 15.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Family = 'Roboto'
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.FontColor = claWhite
+              Text = 'EMAIL'
+              TabOrder = 0
+            end
+            object Layout1: TLayout
+              Align = Client
+              Locked = True
+              Size.Width = 270.000000000000000000
+              Size.Height = 61.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              object Image1: TImage
+                MultiResBitmap.Height = 28
+                MultiResBitmap.Width = 40
+                MultiResBitmap = <
+                  item
+                    Width = 40
+                    Height = 28
+                    PNG = {
+                      89504E470D0A1A0A0000000D49484452000000280000001C08060000001315FD
+                      D6000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                      01E1494441545847ED97EF51C24010C5498602E88094600994600762054205D2
+                      8176801D58825A8174201DF89119FEC5F7D697CC5D728C9C1C920FFE66C25D76
+                      F7F61EC9EE24E991B22C47BBDDEE056327909631B5659ACC79D235A06D9A6D36
+                      9B8F7EBF5FC8F68663F93DBD0CFBFD7E98E7F988F3ED76BBA44A9799455D1008
+                      BC9316A329B044C0BD62FF1CEE2D19352D810445FA8C61A07567877B61CFB96D
+                      DE202890B0363154B57936B8076AEDDD360DE009E4255EAD569F3AAD445E2957
+                      72985B7BB8CC341A4D81430C457311EC13E54C0672DE842E068EC20CA225908B
+                      310D894CD63CCCA5B486F6B272E2684611144870CAC265B3D4E0FC01C349CDA3
+                      1C2EAF38EA9C981F27B00266AF26DC7F1B03D60C9ACD00B18F72D7C01C2790C0
+                      3E5188112B92B1819209D6355CF10209DC5EC7A9C0AFE53E0862466E33686E8F
+                      B210F0FD4E20414854F3C0E73DB68EB9F2F45BB088124810166C1EB96B7E6A86
+                      4320E634811508F79A470DC0E4FC03DEBB65A8190E81F034020996B43ADCAD37
+                      11F58684F874020996794D50219BBD15C780356905122C65D227DCE6C57ABD5E
+                      F296D2267714CA559344604A20C31398CBDE59FE059E4AE7057A9F9DE8BE4596
+                      650BF35C8EC2FDECCCD0B913886A3DAA3AC2ADFDA29BC738F8ACEC0AD482ABD8
+                      EB7D017F48C2AC7F7F2A3E0000000049454E44AE426082}
+                    FileName = 
+                      'C:\Projetos Delphi\Portifolio\LoginPageUI4\src\assets\image\icon' +
+                      '_email.png'
+                  end>
+                Align = Left
+                Margins.Left = 10.000000000000000000
+                Position.X = 10.000000000000000000
+                Size.Width = 33.000000000000000000
+                Size.Height = 61.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object edtEmailSignIn: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                StyleLookup = 'Edit1Style1'
+                TabOrder = 1
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.FontColor = claWhite
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 15.000000000000000000
+                Size.Width = 222.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+                TextPrompt = 'EMAIL'
+                StyledSettings = [Family, Style]
+                Caret.Color = claWhite
+                OnEnter = edtEmailSignInEnter
+                OnExit = edtEmailSignInExit
+              end
+            end
+          end
+          object rectSenhaSignIn: TRectangle
+            Align = Top
+            Fill.Color = xFF201A30
+            Opacity = 0.400000005960464500
+            Margins.Top = 30.000000000000000000
+            Position.Y = 395.000000000000000000
+            Size.Width = 270.000000000000000000
+            Size.Height = 62.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = xFF2B253E
+            XRadius = 15.000000000000000000
+            YRadius = 15.000000000000000000
+            object lblSenhaSignIn: TLabel
+              Align = Top
+              AutoSize = True
+              StyledSettings = []
+              HitTest = True
+              Opacity = 0.000000000000000000
+              Margins.Left = 50.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Bottom = -19.000000000000000000
+              Position.X = 50.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 220.000000000000000000
+              Size.Height = 15.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Family = 'Roboto'
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.FontColor = claWhite
+              Text = 'PASSWORD'
+              TabOrder = 0
+            end
+            object Layout2: TLayout
+              Align = Client
+              Locked = True
+              Size.Width = 270.000000000000000000
+              Size.Height = 61.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              object Image2: TImage
+                MultiResBitmap.Height = 28
+                MultiResBitmap.Width = 28
+                MultiResBitmap = <
+                  item
+                    Width = 28
+                    Height = 28
+                    PNG = {
+                      89504E470D0A1A0A0000000D494844520000001C0000001C0806000000720DDF
+                      94000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                      022149444154484BDD96CD4A1B5114C79398C48FD2360B6941285808481F406C
+                      E9D237505C6415DCD657D055975DF6052C88600A752B956ED26EBBEAC68D8820
+                      C40F4A0CB8D06432F1F71F4F84D1199DDCA445FCC3E19C7B3EEF3DF7CC4DD2A9
+                      04E8743A63D03434EFFBFE2CBC887A289D4EEF6632992DF806EBDFC81741403F
+                      A040B1DD6E6F369BCD06852261B60ABE6F2CCC0D2429789EF7CB925E50F83BE2
+                      02895F6B235009FB1F6CE7F231DFE716DE1B48364A82AA128153D68BF0BC99AF
+                      817E182ACB478E6C6A9BF5333327074125251090DFC162EF5B367CDE764F8ABC
+                      64A6642066849D7E53B0F1AC9962211F7CBF2A0654A05BDD1032C643C0F90934
+                      D96AB57C26B00A79668A857CA09F8AA17091F8A7660A21B220905E3BF4A19A14
+                      09D180A8D519830F059A1B882CC84E1B7C539FB2D9EC32F20F533F3C302C6506
+                      C7A3AD3BC82F4C1D425C4BFF1942A3CEAE5EC166A07BA7320ADCDD7B06E60362
+                      8DEBF808FFAB2B81EA81030815A41DF55C2E57B0E540407BF7F3F9FCA42DC305
+                      355EE2381D30342781D2119A544E39259913463F1A2A28D0DA39533943392C5D
+                      70882EFEFBD0F45C900DEBDD1C1549367562B8149C80D6A075969AEA9EE0D2D2
+                      978CBEC65FBF20E3A64B0CD73BECB9955D3CFCA1E9172E058F7914F6A043E4A3
+                      2B95231882008FEAC3BFF9789FF178EBEFC50ACB2F575A67947942F58B71E75B
+                      BA4AD156D08701805C7CAEEDF88DD3777DD49F75528B718672906B5D392D3D48
+                      A52E01A02D396517B3F8510000000049454E44AE426082}
+                    FileName = 
+                      'C:\Projetos Delphi\Portifolio\LoginPageUI4\src\assets\image\icon' +
+                      '_pass.png'
+                  end>
+                Align = Left
+                Margins.Left = 10.000000000000000000
+                Position.X = 10.000000000000000000
+                Size.Width = 33.000000000000000000
+                Size.Height = 61.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object edtSenhaSignIn: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                StyleLookup = 'Edit1Style1'
+                TabOrder = 1
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.FontColor = claWhite
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 15.000000000000000000
+                Size.Width = 222.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+                TextPrompt = 'PASSWORD'
+                StyledSettings = [Family, Style]
+                Caret.Color = claWhite
+                OnEnter = edtEmailSignInEnter
+                OnExit = edtEmailSignInExit
+              end
+            end
+          end
+          object Rectangle3: TRectangle
+            Align = Top
+            Fill.Color = xFF0EF5E2
+            Margins.Left = 40.000000000000000000
+            Margins.Top = 20.000000000000000000
+            Margins.Right = 40.000000000000000000
+            Position.X = 40.000000000000000000
+            Position.Y = 477.000000000000000000
+            Size.Width = 190.000000000000000000
+            Size.Height = 51.887756347656250000
+            Size.PlatformDefault = False
+            Stroke.Color = xFF0EF5E2
+            XRadius = 25.943878173828130000
+            YRadius = 25.943878173828130000
+            object Label3: TLabel
+              Align = Client
+              StyledSettings = [Family, FontColor]
+              Locked = True
+              Size.Width = 190.000000000000000000
+              Size.Height = 51.887756347656250000
+              Size.PlatformDefault = False
+              TextSettings.Font.Family = 'Roboto'
+              TextSettings.Font.Size = 16.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.HorzAlign = Center
+              Text = 'LOGIN'
+              TabOrder = 0
+            end
+          end
+          object Label4: TLabel
+            Align = Top
+            AutoSize = True
+            StyledSettings = []
+            Opacity = 0.600000023841857900
+            Margins.Left = 40.000000000000000000
+            Margins.Top = 10.000000000000000000
+            Margins.Right = 40.000000000000000000
+            Position.X = 40.000000000000000000
+            Position.Y = 538.887756347656300000
+            Size.Width = 190.000000000000000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Roboto'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.FontColor = xFF0EF5E2
+            TextSettings.HorzAlign = Center
+            Text = 'Forgot Password?'
+            TabOrder = 1
+          end
+          object Label5: TLabel
+            Anchors = [akLeft, akRight, akBottom]
+            AutoSize = True
+            StyledSettings = []
+            Position.X = 20.000000000000000000
+            Position.Y = 629.000000000000000000
+            Size.Width = 175.000000000000000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Roboto'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = xFF534F65
+            TextSettings.HorzAlign = Center
+            Text = 'Don'#39't have an acconunt? '
+            TabOrder = 5
+          end
+          object Label6: TLabel
+            Anchors = [akLeft, akRight, akBottom]
+            AutoSize = True
+            StyledSettings = []
+            HitTest = True
+            Margins.Bottom = 20.000000000000000000
+            Position.X = 180.000000000000000000
+            Position.Y = 629.000000000000000000
+            Size.Width = 66.000000000000000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Roboto'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = xFF0EF5E2
+            TextSettings.HorzAlign = Center
+            Text = 'Sign Up'
+            TabOrder = 6
+            OnClick = Label6Click
+          end
+        end
+      end
+    end
+    object tabSignUp: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 8.000000000000000000
+      Size.Height = 8.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'tabSignUp'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
+      object Rectangle2: TRectangle
+        Align = Contents
+        Fill.Color = xFF201A30
+        Size.Width = 310.000000000000000000
+        Size.Height = 667.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Color = xFF201A30
+        object layCreate: TLayout
+          Align = Client
+          Margins.Left = 10.000000000000000000
+          Margins.Right = 10.000000000000000000
+          Size.Width = 290.000000000000000000
+          Size.Height = 667.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Layout3: TLayout
+            Align = Top
+            Margins.Top = 10.000000000000000000
+            Position.Y = 10.000000000000000000
+            Size.Width = 290.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            object Image3: TImage
+              MultiResBitmap.Height = 32
+              MultiResBitmap.Width = 46
+              MultiResBitmap = <
+                item
+                  Width = 46
+                  Height = 32
+                  PNG = {
+                    89504E470D0A1A0A0000000D494844520000002E0000002008060000006DB34A
+                    47000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                    00C7494441545847EDD6FD0D82301087E16A3B806EE048DD4056700427750419
+                    A02DDE85DF1FE047C184D26B724F62DA02C1D786448C524AC99352BA86109EF4
+                    79F01C8765E3D061827F004EC9F51ECD78D7715AA66FD1E071893C99E80E97C8
+                    A3D17B69329AE2FCD858D63FFF03078C597C436BED05CBA2628CBD73EE8CE54F
+                    478C4B4E18F7D063CC5A154EBB7DC3B428DE6DFAAE3B96DBA047B01B9FC4B9B5
+                    CF6455D4A9F15550A7C657419D1FF14DBC8F336A9DC58B7F1F9FA25ECFC1BCDB
+                    3CC761A5946A86312FCDEFF7B15A6DDB830000000049454E44AE426082}
+                  FileName = 
+                    'C:\Projetos Delphi\Portifolio\LoginPageUI4\src\assets\image\1342' +
+                    '26_back_arrow_left_icon 1.png'
+                end>
+              Align = Left
+              OnClick = Image3Click
+            end
+          end
+          object rectNameSignUp: TRectangle
+            Align = Top
+            Fill.Color = xFF201A30
+            Opacity = 0.400000005960464500
+            Margins.Top = 30.000000000000000000
+            Position.Y = 132.000000000000000000
+            Size.Width = 290.000000000000000000
+            Size.Height = 62.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = xFF2B253E
+            XRadius = 15.000000000000000000
+            YRadius = 15.000000000000000000
+            object lblNameSignUp: TLabel
+              Align = Top
+              AutoSize = True
+              StyledSettings = []
+              HitTest = True
+              Opacity = 0.000000000000000000
+              Margins.Left = 50.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Bottom = -19.000000000000000000
+              Position.X = 50.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 240.000000000000000000
+              Size.Height = 15.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Family = 'Roboto'
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.FontColor = claWhite
+              Text = 'FULL NAME'
+              TabOrder = 0
+            end
+            object Layout4: TLayout
+              Align = Client
+              Locked = True
+              Size.Width = 290.000000000000000000
+              Size.Height = 61.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              object Image4: TImage
+                MultiResBitmap.Height = 28
+                MultiResBitmap.Width = 28
+                MultiResBitmap = <
+                  item
+                    Width = 28
+                    Height = 28
+                    PNG = {
+                      89504E470D0A1A0A0000000D494844520000001C0000001C0806000000720DDF
+                      94000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                      020149444154484BED95BD4BC35014C5DBA6560B4E8ADFE0200AA27B45D1C549
+                      DCFD0BC441D0D5CE6E3A09826B71711271AC8BE8E4E2E6207E8050B128D6168A
+                      6229FDF277C9A560D3B431CDA41E38DC77CF7B39F7E5E625F1FD7AF8353A42A5
+                      5231E000C32E49612610082465CE7394CBE59E52A9142B140AF7300DDFE01DDA
+                      0E73B201EFC05DF5631CA7C013719302F3709AF1AE6A71D9902E6F0D140B6178
+                      24C698CEA85C05DA147309D6C4A4E52ABB0726E3183E63BCA29205CC45754363
+                      2AB9072673981589B62D9339D6E489960ED422A0B111E424FB41D64CEBE203B6
+                      291BC249412994A5B50B665A1711986DB22967A0502707E2AC582C5ED0B26E95
+                      AB40EB65CD39F3978CBD793D308AF08C5E297C2A6395451F154DE6283AABB237
+                      1043B90BCC3FE10D4CC818ED8AC273BAAC297EF469D3964DC20968F0CCAED9C8
+                      2DF105CAA7EE1FF62DA5557E282DECA35D21536D0CD6E70829FE201953B1C2B6
+                      20CF6B0D2E633248EAA820C8B1B9A461187BC47DD5BEC15290021D30CA718FB2
+                      D3232E3C1413A64AE60A7B70DD105C65A3F314DD42DAC6236FCEDA80C58B1CF7
+                      1C7103B6ABEC18720D5CC7E39DD8FC75E1CE4EE081A6AE81471C1E6B6A0F7999
+                      69CB92A6AE211E78A535ADC2F2F10E06836142CACC5A420A2FCBB7D5C9DFC253
+                      580AF26D7CA41DF23EB5043CF2783D686A0F168EB8399DB5C0238CD7B0A67F06
+                      3EDF1794767C328A60593F0000000049454E44AE426082}
+                    FileName = 
+                      'C:\Projetos Delphi\Portifolio\LoginPageUI4\src\assets\image\2561' +
+                      '496_user_icon 1.png'
+                  end>
+                Align = Left
+                Margins.Left = 10.000000000000000000
+                Position.X = 10.000000000000000000
+                Size.Width = 33.000000000000000000
+                Size.Height = 61.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object edtNameSignUp: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                StyleLookup = 'Edit1Style1'
+                TabOrder = 1
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.FontColor = claWhite
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 15.000000000000000000
+                Size.Width = 242.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+                TextPrompt = 'FULL NAME'
+                StyledSettings = [Family, Style]
+                Caret.Color = claWhite
+                OnEnter = edtEmailSignInEnter
+                OnExit = edtEmailSignInExit
+              end
+            end
+          end
+          object rectPhoneSignUp: TRectangle
+            Align = Top
+            Fill.Color = xFF201A30
+            Opacity = 0.400000005960464500
+            Margins.Top = 30.000000000000000000
+            Position.Y = 224.000000000000000000
+            Size.Width = 290.000000000000000000
+            Size.Height = 62.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = xFF2B253E
+            XRadius = 15.000000000000000000
+            YRadius = 15.000000000000000000
+            object lblPhoneSignUp: TLabel
+              Align = Top
+              AutoSize = True
+              StyledSettings = []
+              HitTest = True
+              Opacity = 0.000000000000000000
+              Margins.Left = 50.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Bottom = -19.000000000000000000
+              Position.X = 50.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 240.000000000000000000
+              Size.Height = 15.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Family = 'Roboto'
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.FontColor = claWhite
+              Text = 'PHONE'
+              TabOrder = 0
+            end
+            object Layout5: TLayout
+              Align = Client
+              Locked = True
+              Size.Width = 290.000000000000000000
+              Size.Height = 61.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              object Image5: TImage
+                MultiResBitmap.Height = 28
+                MultiResBitmap.Width = 28
+                MultiResBitmap = <
+                  item
+                    Width = 28
+                    Height = 28
+                    PNG = {
+                      89504E470D0A1A0A0000000D494844520000001C0000001C0806000000720DDF
+                      94000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                      014249444154484BED974D4AC3501485D364A4A0A93AE81E3A2FE80EDC81DB70
+                      298E9D3A720776A6A3DA8933115C8203413A11F3A3DF4D4EA3695E8A8D4F10CC
+                      078FBC7BB8EF9C4B28F4257091E7F938CBB2699224AFEFDDB8360FD9D508F5AC
+                      A07144D89CED5314457B830D216C1B8F473C66EC87A5EB27033D2B689E582061
+                      7118860BC9A69FB04E55D6A0EF8C75A93220284ED3F4198F09FA9DE40257E021
+                      83CE6C5A4905D28F55D620E00AE35B950568C6D1AADE1A68CD923AB1F4580D6C
+                      6081C56C1E302FD956347E344BEC95FE04D934680DFC2DFA40EFF481DEE903BD
+                      D3077AE71F07EA3FB433B269F077AE182A9D705F7D60DDAB74621EDFBD62BC71
+                      C5CBE98F55BB3860ED97DB2604EDE0614367A5B20682864CFFC2DDF49C835B92
+                      6BA0EFB60D6467387B81C782FD48F27A681C33E18DBD964DB1CF0302A7E621BB
+                      2F04C107DE3AB9F4702EDA820000000049454E44AE426082}
+                    FileName = 
+                      'C:\Projetos Delphi\Portifolio\LoginPageUI4\src\assets\image\1850' +
+                      '28_iphone_phone_icon 1.png'
+                  end>
+                Align = Left
+                Margins.Left = 10.000000000000000000
+                Position.X = 10.000000000000000000
+                Size.Width = 33.000000000000000000
+                Size.Height = 61.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object edtPhoneSignUp: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                StyleLookup = 'Edit1Style1'
+                TabOrder = 1
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.FontColor = claWhite
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 15.000000000000000000
+                Size.Width = 242.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+                TextPrompt = 'PHONE'
+                StyledSettings = [Family, Style]
+                Caret.Color = claWhite
+                OnEnter = edtEmailSignInEnter
+                OnExit = edtEmailSignInExit
+              end
+            end
+          end
+          object rectConfPassSignUp: TRectangle
+            Align = Top
+            Fill.Color = xFF201A30
+            Opacity = 0.400000005960464500
+            Margins.Top = 30.000000000000000000
+            Position.Y = 500.000000000000000000
+            Size.Width = 290.000000000000000000
+            Size.Height = 62.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = xFF2B253E
+            XRadius = 15.000000000000000000
+            YRadius = 15.000000000000000000
+            object lblConfPassSignUp: TLabel
+              Align = Top
+              AutoSize = True
+              StyledSettings = []
+              HitTest = True
+              Opacity = 0.000000000000000000
+              Margins.Left = 50.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Bottom = -19.000000000000000000
+              Position.X = 50.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 240.000000000000000000
+              Size.Height = 15.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Family = 'Roboto'
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.FontColor = claWhite
+              Text = 'CONFIRM PASSWORD'
+              TabOrder = 0
+            end
+            object Layout6: TLayout
+              Align = Client
+              Locked = True
+              Size.Width = 290.000000000000000000
+              Size.Height = 61.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              object Image6: TImage
+                MultiResBitmap.Height = 28
+                MultiResBitmap.Width = 28
+                MultiResBitmap = <
+                  item
+                    Width = 28
+                    Height = 28
+                    PNG = {
+                      89504E470D0A1A0A0000000D494844520000001C0000001C0806000000720DDF
+                      94000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                      022549444154484BCD96CF4B1B4114C7F363639B147F1C4A0541881028FD03A4
+                      168FFE07961E720ABDB6FF423D79F4E83FA020425368AFC5E2457BEDA9172F22
+                      8260AB9434D043259B5D3FDFCD8BB0BAAB9B89AD7EE0316FDEBC796F76E6CD24
+                      F95C06C230AC20B3C8CB20081630D59022B25F28143EE7F3F9F7E8DFD0CF6887
+                      8304B56EB7FBA9D3E9B44998888D35F17D66D3DC20C884EFFB5F2DE81989B750
+                      5F1178460B41EA8C7F67ECAF7CCC77DCA60F06C1CA04D85120F84DFF35ED880D
+                      5F80FD01D2908F1C59D417FA63369C1D26D51540A0BFA0493D6F8DE133D7FF52
+                      F4B736940DE63C64A51F35D95ACF8652910FBE1F34079AC895DD10056B63E0FC
+                      08A9B2A50115B883F836948A7C905DCD21718DF9A33614233121C8AE1506C8B1
+                      0C196923E40A2BB4BA3657484CC84ADBDCA99562B1F80E7DDBCCF70F8AA541E1
+                      F8C81EFA1333C748DBD27F46ACD459D534CD73E4C6AA4C82B39B27C61BD4638E
+                      6399F6978E0469450E104BC856B43CCF9BB0EEAD40D51E964AA5AA75E309555E
+                      6A713A6255A791D111552A8B7F2A9D58C98F86120AB665D14CCE2886858B3EA2
+                      CF7F2F9A8113B260BD9B6589743367C625E114B2816CD255550F84CB964EF275
+                      2A7FFD823C365B665CCF70E0ADEC73FF8B66585C129E708F0F901FE83F7B2647
+                      2882085D5A3339A31816EE6E2FFEE5C7FB0FEF9FFE5E2CD15DEF599D69B0EDFA
+                      C5B8F62D5D236927DA875B8050FCBDE9A62F9C7D9FC461555F6A739C510C626D
+                      2AA685875CEE1C1C0B36868A05161D0000000049454E44AE426082}
+                    FileName = 
+                      'C:\Projetos Delphi\Portifolio\LoginPageUI4\src\assets\image\icon' +
+                      '_pass.png'
+                  end>
+                Align = Left
+                Margins.Left = 10.000000000000000000
+                Position.X = 10.000000000000000000
+                Size.Width = 33.000000000000000000
+                Size.Height = 61.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object edtConfPassSignUp: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                StyleLookup = 'Edit1Style1'
+                TabOrder = 1
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.FontColor = claWhite
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 15.000000000000000000
+                Size.Width = 242.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+                TextPrompt = 'CONFIRM PASSWORD'
+                StyledSettings = [Family, Style]
+                Caret.Color = claWhite
+                OnEnter = edtEmailSignInEnter
+                OnExit = edtEmailSignInExit
+              end
+            end
+          end
+          object rectPasswordSignUp: TRectangle
+            Align = Top
+            Fill.Color = xFF201A30
+            Opacity = 0.400000005960464500
+            Margins.Top = 30.000000000000000000
+            Position.Y = 408.000000000000000000
+            Size.Width = 290.000000000000000000
+            Size.Height = 62.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = xFF2B253E
+            XRadius = 15.000000000000000000
+            YRadius = 15.000000000000000000
+            object lblPasswordSignUp: TLabel
+              Align = Top
+              AutoSize = True
+              StyledSettings = []
+              HitTest = True
+              Opacity = 0.000000000000000000
+              Margins.Left = 50.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Bottom = -19.000000000000000000
+              Position.X = 50.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 240.000000000000000000
+              Size.Height = 15.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Family = 'Roboto'
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.FontColor = claWhite
+              Text = 'PASSWORD'
+              TabOrder = 0
+            end
+            object Layout7: TLayout
+              Align = Client
+              Locked = True
+              Size.Width = 290.000000000000000000
+              Size.Height = 61.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              object Image7: TImage
+                MultiResBitmap.Height = 28
+                MultiResBitmap.Width = 28
+                MultiResBitmap = <
+                  item
+                    Width = 28
+                    Height = 28
+                    PNG = {
+                      89504E470D0A1A0A0000000D494844520000001C0000001C0806000000720DDF
+                      94000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                      022549444154484BCD96CF4B1B4114C7F363639B147F1C4A0541881028FD03A4
+                      168FFE07961E720ABDB6FF423D79F4E83FA020425368AFC5E2457BEDA9172F22
+                      8260AB9434D043259B5D3FDFCD8BB0BAAB9B89AD7EE0316FDEBC796F76E6CD24
+                      F95C06C230AC20B3C8CB20081630D59022B25F28143EE7F3F9F7E8DFD0CF6887
+                      8304B56EB7FBA9D3E9B44998888D35F17D66D3DC20C884EFFB5F2DE81989B750
+                      5F1178460B41EA8C7F67ECAF7CCC77DCA60F06C1CA04D85120F84DFF35ED880D
+                      5F80FD01D2908F1C59D417FA63369C1D26D51540A0BFA0493D6F8DE133D7FF52
+                      F4B736940DE63C64A51F35D95ACF8652910FBE1F34079AC895DD10056B63E0FC
+                      08A9B2A50115B883F836948A7C905DCD21718DF9A33614233121C8AE1506C8B1
+                      0C196923E40A2BB4BA3657484CC84ADBDCA99562B1F80E7DDBCCF70F8AA541E1
+                      F8C81EFA1333C748DBD27F46ACD459D534CD73E4C6AA4C82B39B27C61BD4638E
+                      6399F6978E0469450E104BC856B43CCF9BB0EEAD40D51E964AA5AA75E309555E
+                      6A713A6255A791D111552A8B7F2A9D58C98F86120AB665D14CCE2886858B3EA2
+                      CF7F2F9A8113B260BD9B6589743367C625E114B2816CD255550F84CB964EF275
+                      2A7FFD823C365B665CCF70E0ADEC73FF8B66585C129E708F0F901FE83F7B2647
+                      2882085D5A3339A31816EE6E2FFEE5C7FB0FEF9FFE5E2CD15DEF599D69B0EDFA
+                      C5B8F62D5D236927DA875B8050FCBDE9A62F9C7D9FC461555F6A739C510C626D
+                      2AA685875CEE1C1C0B36868A05161D0000000049454E44AE426082}
+                    FileName = 
+                      'C:\Projetos Delphi\Portifolio\LoginPageUI4\src\assets\image\icon' +
+                      '_pass.png'
+                  end>
+                Align = Left
+                Margins.Left = 10.000000000000000000
+                Position.X = 10.000000000000000000
+                Size.Width = 33.000000000000000000
+                Size.Height = 61.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object edtPasswordSignUp: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                StyleLookup = 'Edit1Style1'
+                TabOrder = 1
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.FontColor = claWhite
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 15.000000000000000000
+                Size.Width = 242.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+                TextPrompt = 'PASSWORD'
+                StyledSettings = [Family, Style]
+                Caret.Color = claWhite
+                OnEnter = edtEmailSignInEnter
+                OnExit = edtEmailSignInExit
+              end
+            end
+          end
+          object rectEmailSignUp: TRectangle
+            Align = Top
+            Fill.Color = xFF201A30
+            Opacity = 0.400000005960464500
+            Margins.Top = 30.000000000000000000
+            Position.Y = 316.000000000000000000
+            Size.Width = 290.000000000000000000
+            Size.Height = 62.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = xFF2B253E
+            XRadius = 15.000000000000000000
+            YRadius = 15.000000000000000000
+            object lblEmailSignUp: TLabel
+              Align = Top
+              AutoSize = True
+              StyledSettings = []
+              HitTest = True
+              Opacity = 0.000000000000000000
+              Margins.Left = 50.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Bottom = -19.000000000000000000
+              Position.X = 50.000000000000000000
+              Position.Y = 5.000000000000000000
+              Size.Width = 240.000000000000000000
+              Size.Height = 15.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Family = 'Roboto'
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.FontColor = claWhite
+              Text = 'EMAIL'
+              TabOrder = 0
+            end
+            object Layout8: TLayout
+              Align = Client
+              Locked = True
+              Size.Width = 290.000000000000000000
+              Size.Height = 61.000000000000000000
+              Size.PlatformDefault = False
+              TabOrder = 1
+              object Image8: TImage
+                MultiResBitmap.Height = 28
+                MultiResBitmap.Width = 40
+                MultiResBitmap = <
+                  item
+                    Width = 40
+                    Height = 28
+                    PNG = {
+                      89504E470D0A1A0A0000000D49484452000000280000001C08060000001315FD
+                      D6000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000
+                      01E1494441545847ED97EF51C24010C5498602E88094600994600762054205D2
+                      8176801D58825A8174201DF89119FEC5F7D697CC5D728C9C1C920FFE66C25D76
+                      F7F61EC9EE24E991B22C47BBDDEE056327909631B5659ACC79D235A06D9A6D36
+                      9B8F7EBF5FC8F68663F93DBD0CFBFD7E98E7F988F3ED76BBA44A9799455D1008
+                      BC9316A329B044C0BD62FF1CEE2D19352D810445FA8C61A07567877B61CFB96D
+                      DE202890B0363154B57936B8076AEDDD360DE009E4255EAD569F3AAD445E2957
+                      72985B7BB8CC341A4D81430C457311EC13E54C0672DE842E068EC20CA225908B
+                      310D894CD63CCCA5B486F6B272E2684611144870CAC265B3D4E0FC01C349CDA3
+                      1C2EAF38EA9C981F27B00266AF26DC7F1B03D60C9ACD00B18F72D7C01C2790C0
+                      3E5188112B92B1819209D6355CF10209DC5EC7A9C0AFE53E0862466E33686E8F
+                      B210F0FD4E20414854F3C0E73DB68EB9F2F45BB088124810166C1EB96B7E6A86
+                      4320E634811508F79A470DC0E4FC03DEBB65A8190E81F034020996B43ADCAD37
+                      11F58684F874020996794D50219BBD15C780356905122C65D227DCE6C57ABD5E
+                      F296D2267714CA559344604A20C31398CBDE59FE059E4AE7057A9F9DE8BE4596
+                      650BF35C8EC2FDECCCD0B913886A3DAA3AC2ADFDA29BC738F8ACEC0AD482ABD8
+                      EB7D017F48C2AC7F7F2A3E0000000049454E44AE426082}
+                    FileName = 
+                      'C:\Projetos Delphi\Portifolio\LoginPageUI4\src\assets\image\icon' +
+                      '_email.png'
+                  end>
+                Align = Left
+                Margins.Left = 10.000000000000000000
+                Position.X = 10.000000000000000000
+                Size.Width = 33.000000000000000000
+                Size.Height = 61.000000000000000000
+                Size.PlatformDefault = False
+              end
+              object edtEmailSignUp: TEdit
+                Touch.InteractiveGestures = [LongTap, DoubleTap]
+                Align = Client
+                StyleLookup = 'Edit1Style1'
+                TabOrder = 1
+                TextSettings.Font.Family = 'Roboto'
+                TextSettings.Font.Size = 16.000000000000000000
+                TextSettings.FontColor = claWhite
+                Margins.Left = 5.000000000000000000
+                Margins.Top = 15.000000000000000000
+                Size.Width = 242.000000000000000000
+                Size.Height = 32.000000000000000000
+                Size.PlatformDefault = False
+                TextPrompt = 'EMAIL'
+                StyledSettings = [Family, Style]
+                Caret.Color = claWhite
+                OnEnter = edtEmailSignInEnter
+                OnExit = edtEmailSignInExit
+              end
+            end
+          end
+          object Rectangle4: TRectangle
+            Anchors = [akLeft, akRight, akBottom]
+            Fill.Color = xFF0EF5E2
+            Margins.Left = 40.000000000000000000
+            Margins.Right = 40.000000000000000000
+            Margins.Bottom = 20.000000000000000000
+            Position.X = 42.000000000000000000
+            Position.Y = 576.000000000000000000
+            Size.Width = 210.000000000000000000
+            Size.Height = 45.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Color = xFF0EF5E2
+            XRadius = 22.500000000000000000
+            YRadius = 22.500000000000000000
+            object Label7: TLabel
+              Align = Client
+              StyledSettings = [Family, FontColor]
+              Locked = True
+              Size.Width = 210.000000000000000000
+              Size.Height = 45.000000000000000000
+              Size.PlatformDefault = False
+              TextSettings.Font.Family = 'Roboto'
+              TextSettings.Font.Size = 16.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+              TextSettings.HorzAlign = Center
+              Text = 'SIGN UP'
+              TabOrder = 0
+            end
+          end
+          object Label8: TLabel
+            Anchors = [akLeft, akRight, akBottom]
+            AutoSize = True
+            StyledSettings = []
+            Position.X = 36.000000000000000000
+            Position.Y = 630.000000000000000000
+            Size.Width = 177.000000000000000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Roboto'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = xFF534F65
+            TextSettings.HorzAlign = Center
+            Text = 'Already have a account?'
+            TabOrder = 7
+            OnClick = Label9Click
+          end
+          object Label9: TLabel
+            Anchors = [akLeft, akRight, akBottom]
+            AutoSize = True
+            StyledSettings = []
+            HitTest = True
+            Margins.Bottom = 20.000000000000000000
+            Position.X = 190.000000000000000000
+            Position.Y = 630.000000000000000000
+            Size.Width = 68.000000000000000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Roboto'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = xFF0EF5E2
+            TextSettings.HorzAlign = Center
+            Text = 'Sign In'
+            TabOrder = 8
+            OnClick = Label9Click
+          end
+          object Label10: TLabel
+            Align = Top
+            AutoSize = True
+            StyledSettings = []
+            Margins.Left = 15.000000000000000000
+            Position.X = 15.000000000000000000
+            Position.Y = 85.000000000000000000
+            Size.Width = 275.000000000000000000
+            Size.Height = 17.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Roboto'
+            TextSettings.Font.Size = 14.000000000000000000
+            TextSettings.FontColor = xFF534F65
+            Text = 'Please fill input blow here'
+            TabOrder = 5
+          end
+          object Label11: TLabel
+            Align = Top
+            AutoSize = True
+            StyledSettings = []
+            HitTest = True
+            Margins.Left = 15.000000000000000000
+            Position.X = 15.000000000000000000
+            Position.Y = 60.000000000000000000
+            Size.Width = 275.000000000000000000
+            Size.Height = 25.000000000000000000
+            Size.PlatformDefault = False
+            TextSettings.Font.Family = 'Roboto'
+            TextSettings.Font.Size = 20.000000000000000000
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhite
+            Text = 'Create Account'
+            TabOrder = 6
+          end
+        end
+      end
+    end
+  end
+  object StyleBook1: TStyleBook
+    Styles = <
+      item
+      end
+      item
+        Platform = 'AndroidL Light'
+        ResourcesBin = {
+          464D585F5354594C4520322E3501060B45646974315374796C6531031E0C0623
+          45646974315374796C65316C65667473656C656374696F6E706F696E74737479
+          6C6531036603062445646974315374796C6531726967687473656C656374696F
+          6E706F696E747374796C6531035103061645646974315374796C65314C616265
+          6C5374796C6531034701005450463007544C61796F757400095374796C654E61
+          6D65060B45646974315374796C653105416C69676E070643656E7465720A5369
+          7A652E57696474680500000000006237FC06400B53697A652E48656967687405
+          000000000000008004401453697A652E506C6174666F726D44656661756C7408
+          085461624F7264657202000B4669786564486569676874022000125441637469
+          76655374796C654F626A65637400095374796C654E616D65060A6261636B6772
+          6F756E6405416C69676E0708436F6E74656E74730C536F757263654C6F6F6B75
+          700617416E64726F69644C204C696768747374796C652E706E670A53697A652E
+          57696474680500000000006237FC06400B53697A652E48656967687405000000
+          000000008004401453697A652E506C6174666F726D44656661756C74080D4163
+          74697665547269676765720707466F63757365640A4163746976654C696E6B0E
+          010E436170496E736574732E4C65667405000000000000008001400F43617049
+          6E736574732E526967687405000000000000008001400F536F75726365526563
+          742E4C6566740500000000000000BC05400E536F75726365526563742E546F70
+          050000000000000080054010536F75726365526563742E526967687405000000
+          00000000FE054011536F75726365526563742E426F74746F6D05000000000000
+          00B8054000010E436170496E736574732E4C6566740500000000000000C00140
+          0F436170496E736574732E52696768740500000000000000C00140055363616C
+          650500000000000000C0FF3F0F536F75726365526563742E4C65667405000000
+          000000009D06400E536F75726365526563742E546F700500000000000000BC05
+          4010536F75726365526563742E52696768740500000000000000CE064011536F
+          75726365526563742E426F74746F6D05000000000000008B064000010E436170
+          496E736574732E4C65667405000000000000008002400F436170496E73657473
+          2E52696768740500000000000000800240055363616C65050000000000000080
+          00400F536F75726365526563742E4C6566740500000000000000BB06400E536F
+          75726365526563742E546F700500000000000000F6054010536F757263655265
+          63742E52696768740500000000000000FD064011536F75726365526563742E42
+          6F74746F6D0500000000000000B5064000010E436170496E736574732E4C6566
+          740500000000000000C002400F436170496E736574732E526967687405000000
+          00000000C00240055363616C650500000000000000C000400F536F7572636552
+          6563742E4C6566740500000000000080A807400E536F75726365526563742E54
+          6F700500000000000000C0064010536F75726365526563742E52696768740500
+          000000000000DA074011536F75726365526563742E426F74746F6D0500000000
+          0000008B074000000A536F757263654C696E6B0E010E436170496E736574732E
+          4C65667405000000000000008001400F436170496E736574732E526967687405
+          000000000000008001400F536F75726365526563742E4C656674050000000000
+          0000BE05400E536F75726365526563742E546F700500000000000000E0034010
+          536F75726365526563742E5269676874050000000000000080064011536F7572
+          6365526563742E426F74746F6D0500000000000000F0044000010E436170496E
+          736574732E4C6566740500000000000000C001400F436170496E736574732E52
+          696768740500000000000000C00140055363616C650500000000000000C0FF3F
+          0F536F75726365526563742E4C65667405000000000000009D06400E536F7572
+          6365526563742E546F700500000000000000A8044010536F7572636552656374
+          2E52696768740500000000000000CE064011536F75726365526563742E426F74
+          746F6D0500000000000000B4054000010E436170496E736574732E4C65667405
+          000000000000008002400F436170496E736574732E5269676874050000000000
+          0000800240055363616C6505000000000000008000400F536F75726365526563
+          742E4C6566740500000000000000BB06400E536F75726365526563742E546F70
+          0500000000000000D4044010536F75726365526563742E526967687405000000
+          00000000FD064011536F75726365526563742E426F74746F6D05000000000000
+          00EA054000010E436170496E736574732E4C6566740500000000000000C00240
+          0F436170496E736574732E52696768740500000000000000C00240055363616C
+          650500000000000000C000400F536F75726365526563742E4C65667405000000
+          00000080A807400E536F75726365526563742E546F700500000000000000B205
+          4010536F75726365526563742E52696768740500000000000000DA074011536F
+          75726365526563742E426F74746F6D0500000000000000B90640000013546F75
+          6368416E696D6174696F6E2E4C696E6B0E00000007544C61796F757400095374
+          796C654E616D650607636F6E74656E7405416C69676E0706436C69656E74064C
+          6F636B6564090C4D617267696E732E4C65667405000000000000008000400B4D
+          617267696E732E546F7005000000000000008000400D4D617267696E732E5269
+          67687405000000000000008000400E4D617267696E732E426F74746F6D050000
+          00000000008000400A53697A652E57696474680500000000006237C406400B53
+          697A652E4865696768740500000000000000E003401453697A652E506C617466
+          6F726D44656661756C7408000007544C61796F757400095374796C654E616D65
+          0607627574746F6E7305416C69676E07055269676874064C6F636B6564090B4D
+          617267696E732E546F7005000000000000008000400D4D617267696E732E5269
+          67687405000000000000008000400E4D617267696E732E426F74746F6D050000
+          00000000008000400A506F736974696F6E2E580500000000006237C806400A50
+          6F736974696F6E2E5905000000000000008000400A53697A652E576964746805
+          00000000000000C804400B53697A652E4865696768740500000000000000E003
+          401453697A652E506C6174666F726D44656661756C740800000C54436F6C6F72
+          4F626A65637400095374796C654E616D65060A6361726574636F6C6F7205436F
+          6C6F72070978464632323232323200000C5442727573684F626A656374000953
+          74796C654E616D65060A666F726567726F756E640B42727573682E436F6C6F72
+          070978464632323232323200000C5442727573684F626A65637400095374796C
+          654E616D65060973656C656374696F6E0B42727573682E436F6C6F7207097837
+          4633334235453500000B54466F6E744F626A65637400095374796C654E616D65
+          0604666F6E7409466F6E742E53697A65050000000000000090034000000F5453
+          656C656374696F6E506F696E7400095374796C654E616D6506126C6566747365
+          6C656374696F6E706F696E74084772697053697A650500000000000000C00040
+          0C4772697043656E7465722E580500000000000000E002400C4772697043656E
+          7465722E590500000000000000B003C00A53697A652E57696474680500000000
+          000000C003400B53697A652E4865696768740500000000000000C00340145369
+          7A652E506C6174666F726D44656661756C74080B5374796C654C6F6F6B757006
+          2345646974315374796C65316C65667473656C656374696F6E706F696E747374
+          796C653119546F756368546172676574457870616E73696F6E2E4C6566740500
+          000000000000E003401A546F756368546172676574457870616E73696F6E2E52
+          696768740500000000000000E003C000000F5453656C656374696F6E506F696E
+          7400095374796C654E616D650613726967687473656C656374696F6E706F696E
+          74084772697053697A650500000000000000C000400C4772697043656E746572
+          2E590500000000000000B004C00A53697A652E57696474680500000000000000
+          C003400B53697A652E4865696768740500000000000000C003401453697A652E
+          506C6174666F726D44656661756C74080B5374796C654C6F6F6B757006244564
+          6974315374796C6531726967687473656C656374696F6E706F696E747374796C
+          6531000006544C6162656C00095374796C654E616D65060670726F6D7074064C
+          6F636B656409074F706163697479050000000000000080FE3F0B5374796C654C
+          6F6F6B7570061645646974315374796C65314C6162656C5374796C6531075669
+          7369626C65080000005450463007544C61796F757400095374796C654E616D65
+          062345646974315374796C65316C65667473656C656374696F6E706F696E7473
+          74796C65310A53697A652E57696474680500000000006237FC06400B53697A65
+          2E48656967687405000000000000008004401453697A652E506C6174666F726D
+          44656661756C74080756697369626C6508085461624F7264657202010A466978
+          6564576964746802180B46697865644865696768740218000C545374796C654F
+          626A65637400095374796C654E616D65060A6261636B67726F756E640C536F75
+          7263654C6F6F6B75700617416E64726F69644C204C696768747374796C652E70
+          6E670A506F736974696F6E2E580500000000000000C003C00A53697A652E5769
+          6474680500000000000000C003400B53697A652E486569676874050000000000
+          0000C003401453697A652E506C6174666F726D44656661756C74080857726170
+          4D6F6465070643656E7465720A536F757263654C696E6B0E010F536F75726365
+          526563742E4C65667405000000000000009002400E536F75726365526563742E
+          546F700500000000000000D4054010536F75726365526563742E526967687405
+          0000000000000084044011536F75726365526563742E426F74746F6D05000000
+          000000008206400001055363616C650500000000000000C0FF3F0F536F757263
+          65526563742E4C6566740500000000000000C002400E536F7572636552656374
+          2E546F70050000000000000090064010536F75726365526563742E5269676874
+          0500000000000000C0044011536F75726365526563742E426F74746F6D050000
+          0000000000B406400001055363616C6505000000000000008000400F536F7572
+          6365526563742E4C6566740500000000000000E002400E536F75726365526563
+          742E546F700500000000000000C9064010536F75726365526563742E52696768
+          74050000000000000084054011536F75726365526563742E426F74746F6D0500
+          000000000000FD06400001055363616C650500000000000000C000400F536F75
+          726365526563742E4C6566740500000000000000A003400E536F757263655265
+          63742E546F70050000000000000093074010536F75726365526563742E526967
+          68740500000000000000B8054011536F75726365526563742E426F74746F6D05
+          00000000000000B7074000000000005450463007544C61796F75740009537479
+          6C654E616D65062445646974315374796C6531726967687473656C656374696F
+          6E706F696E747374796C65310A53697A652E57696474680500000000006237FC
+          06400B53697A652E48656967687405000000000000008004401453697A652E50
+          6C6174666F726D44656661756C74080756697369626C6508085461624F726465
+          7202020A4669786564576964746802180B46697865644865696768740218000C
+          545374796C654F626A65637400095374796C654E616D65060A6261636B67726F
+          756E640C536F757263654C6F6F6B75700617416E64726F69644C204C69676874
+          7374796C652E706E670A53697A652E57696474680500000000000000C003400B
+          53697A652E4865696768740500000000000000C003401453697A652E506C6174
+          666F726D44656661756C740808577261704D6F6465070643656E7465720A536F
+          757263654C696E6B0E010F536F75726365526563742E4C656674050000000000
+          0000FC04400E536F75726365526563742E546F700500000000000000D4054010
+          536F75726365526563742E52696768740500000000000000AE054011536F7572
+          6365526563742E426F74746F6D05000000000000008206400001055363616C65
+          0500000000000000C0FF3F0F536F75726365526563742E4C6566740500000000
+          000000BC05400E536F75726365526563742E546F700500000000000000900640
+          10536F75726365526563742E5269676874050000000000000082064011536F75
+          726365526563742E426F74746F6D0500000000000000B406400001055363616C
+          6505000000000000008000400F536F75726365526563742E4C65667405000000
+          00000000EC05400E536F75726365526563742E546F700500000000000000C906
+          4010536F75726365526563742E52696768740500000000000000AA064011536F
+          75726365526563742E426F74746F6D0500000000000000FD0640000105536361
+          6C650500000000000000C000400F536F75726365526563742E4C656674050000
+          0000000000BD06400E536F75726365526563742E546F70050000000000008093
+          074010536F75726365526563742E526967687405000000000000808207401153
+          6F75726365526563742E426F74746F6D0500000000000080B707400000000000
+          5450463007544C61796F757400095374796C654E616D65061645646974315374
+          796C65314C6162656C5374796C65310A53697A652E5769647468050000000000
+          6237FC06400B53697A652E48656967687405000000000000008004401453697A
+          652E506C6174666F726D44656661756C74080756697369626C6508085461624F
+          7264657202030005545465787400095374796C654E616D650604746578740541
+          6C69676E0706436C69656E74064C6F636B6564090748697454657374080A5369
+          7A652E57696474680500000000006237FC06400B53697A652E48656967687405
+          000000000000008004401453697A652E506C6174666F726D44656661756C7408
+          165465787453657474696E67732E466F6E742E53697A65050000000000000090
+          0340165465787453657474696E67732E466F6E74436F6C6F7207097846463232
+          32323232000000}
+      end>
+  end
+end
